@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.15",
+    "@babel/preset-env": "^7.22.15",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "core-js": "^3.32.1"
+  },
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrykhay/Babel.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "dmitrykhay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitrykhay/Babel/issues"
+  },
+  "homepage": "https://github.com/dmitrykhay/Babel#readme"
+}
